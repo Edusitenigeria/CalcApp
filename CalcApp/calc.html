@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+       <div class="calculator">
+        <input class="result" type="text" readonly>
+        <div class="buttons">
+            <button onclick="clearResult()" class="btn btn-clear">C</button>
+         <button onclick="deleteChar()" class="btn btn-red">Del</button>
+            <button onclick="insertChar('%')" class="btn btn-yellow">%</button>
+            <button onclick="insertChar('/')" class="btn btn-grey">/</button>
+            <button onclick="insertChar('7')" class="btn btn-grey">7</button>
+            <button onclick="insertChar('8')" class="btn btn-grey">8</button>
+            <button onclick="insertChar('9')" class="btn btn-grey">9</button>
+            <button onclick="insertChar('*')" class="btn btn-grey">*</button>
+            <button onclick="insertChar('4')" class="btn btn-grey">4</button>
+            <button onclick="insertChar('5')" class="btn btn-grey">5</button>
+            <button onclick="insertChar('6')" class="btn btn-grey">6</button>
+            <button onclick="insertChar('-')" class="btn btn-grey">-</button>
+            <button onclick="insertChar('1')" class="btn btn-grey">1</button>
+            <button onclick="insertChar('2')" class="btn btn-grey">2</button>
+            <button onclick="insertChar('3')" class="btn btn-grey">3</button>
+            <button onclick="insertChar('+')" class="btn btn-grey">+</button>
+            <button onclick="insertChar('0')" class="btn btn-grey">0</button>
+            <button onclick="insertChar('.')" class="btn btn-grey">.</button>
+            <button onclick="calculateResult()" class="btn btn-equal">=</button>
+        </div>
+       </div>
+       </div>
+    <script src="app.js"></script>
+    <h3 style="color: white; text-align: center;">A project by DannyCodes</h4>
+</body>
+</html>
